@@ -1,0 +1,20 @@
+.element{
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #eee;
+}
+
+.element > h1, .element-data{
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.element-data, .name{
+  background: right/contain content-box border-box no-repeat white;
+}
+
+.element-data > h2, .element-data > p {
+  margin: 0.2rem;
+  font-size: 1rem;
+}
